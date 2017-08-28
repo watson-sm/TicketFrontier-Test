@@ -44,7 +44,7 @@ def main():
     webpath = """http://www.isds.duke.edu/courses/Spring01/sta114/data/"""
     entries = []
 
-    # Generic run - no arguments passed at program launch
+    # Get page and format for records
     html = getWEB(webpage)
     tbl_lines = formatForRecords(html)
 

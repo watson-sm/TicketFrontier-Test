@@ -29,6 +29,7 @@ def yearInfo(data, year):
     totAvgKilledPerAccident = 0
     totKilled = 0
 
+    # Go through records to calculate values
     for d in data:
         if recyear == d[6]:
             distinctAccidents += 1
@@ -113,6 +114,7 @@ def dayInfo(data, day):
     totWounded = 0
     totKilled = 0
 
+    # Go through records to calculate values
     for d in data:
         if recday == d[3]:
             distinctAccidents += 1;
